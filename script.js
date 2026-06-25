@@ -52,14 +52,15 @@ document.addEventListener('click', function(e) {
 // Scroll spy for sidebar
 const navLinks = document.querySelectorAll('.sidebar-nav a');
 const subnavIds = [];
-const allAnchorIds = ['part-1', 'part-2', 'part-3', 'part-4'];
+const allAnchorIds = ['part-1', 'part-2', 'part-3', 'part-4', 'resources'];
 const subnavContainers = document.querySelectorAll('.subnav');
 
 const sectionMap = {
     'part-1': 'part-1',
     'part-2': 'part-2',
     'part-3': 'part-3',
-    'part-4': 'part-4'
+    'part-4': 'part-4',
+    'resources': 'resources'
 };
 
 function updateActiveNav() {
